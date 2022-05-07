@@ -38,9 +38,9 @@ public class AllPaymentActivity extends AppCompatActivity implements PayRvAdapte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        PaymentsRV = findViewById(R.id.idPaymentsRV);
+
         PBloading = findViewById(R.id.idPBloading);
-        addFAB = findViewById(R.id.idFloatingAB);
+
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference("Spending");
         PayRVModalArrayList = new ArrayList<>();
