@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/idRLBsheet"
+    android:background="@color/blue_shade_1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/TVExpensesdateName"
+        android:padding="4dp"
+        android:textSize="20sp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food"
+        android:id="@+id/TVFood"
+        android:textColor="@color/white"
+        android:layout_below="@id/TVExpensesdateName"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transport"
+        android:id="@+id/TVTransport"
+        android:textColor="@color/white"
+        android:layout_below="@id/TVFood"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snacks"
+        android:id="@+id/TVSnacks"
+        android:textColor="@color/white"
+        android:layout_below="@id/TVTransport"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transport"
+        android:id="@+id/idTVOtherEx"
+        android:textColor="@color/white"
+        android:layout_below="@id/TVSnacks"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/idTVOtherEx"
+        android:layout_margin="4dp"
+        android:text="Edit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:id="@+id/idEditBtn"/>
+
+
+
+
+
+</RelativeLayout>
