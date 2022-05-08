@@ -32,7 +32,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="140dp"
         android:layout_marginEnd="20dp"
-        android:hint="@string/Date"
+        android:hint="Date"
         android:padding="5dp"
         android:textColorHint="@color/white"
         app:hintTextColor="@color/white">
@@ -60,7 +60,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:hint="@string/Topic"
+        android:hint="Topic"
         android:padding="5dp"
         android:textColorHint="@color/white"
         app:hintTextColor="@color/white">
@@ -88,7 +88,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="31dp"
         android:layout_marginEnd="20dp"
-        android:hint="@string/Notes"
+        android:hint="Notes"
         android:padding="5dp"
         android:textColorHint="@color/white"
         app:hintTextColor="@color/white">
