@@ -64,5 +64,7 @@ public class AddNote extends AppCompatActivity {
 
         Notes notes= new Notes(Topic,DailyNote);
         noteDbRef.push().setValue(notes);
+        Toast.makeText(this, "Note Deleted", Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(AddNote.this, AllNotes.class));
     }
 }
