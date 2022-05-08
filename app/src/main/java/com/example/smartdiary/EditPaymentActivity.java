@@ -56,7 +56,7 @@ public class EditPaymentActivity extends AppCompatActivity {
 
          }
 
-        databaseReference = firebaseDatabase.getReference("Spending").child(PayID);
+         databaseReference = firebaseDatabase.getReference("Spending").child(PayID);
          updateExpenbtn.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {

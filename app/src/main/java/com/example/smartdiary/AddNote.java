@@ -24,12 +24,13 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.concurrent.Executor;
 
 public class AddNote extends AppCompatActivity {
-    private TextInputEditText NoteTopic,DailyNote ;
+    private TextInputEditText Date,NoteTopic,DailyNote ;
     private Button saveNoteBtn;
     private ProgressBar PBLoading;
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
     private String NoteID;
+    DatabaseReference noteDbRef;
 
 
     @Override
@@ -37,39 +38,32 @@ public class AddNote extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_note);
 
+
         NoteTopic = findViewById(R.id.idEditNoteTopic);
         DailyNote = findViewById(R.id.idEditDailyNote);
-        firebaseDatabase =FirebaseDatabase.getInstance();
         saveNoteBtn=findViewById(R.id.idSaveNoteBtn);
         PBLoading=findViewById(R.id.idPBLoading);
-        databaseReference= firebaseDatabase.getReference("notes");
 
+
+
+        noteDbRef=FirebaseDatabase.getInstance().getReference().child("notes");
 
         saveNoteBtn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                String Topic =NoteTopic.getText().toString();
-                String note = DailyNote.getText().toString();
-                NoteID=Topic;
-
-                NotesRvmodel notesRvmodel= new NotesRvmodel(NoteTopic,DailyNote);
-                databaseReference.addValueEventListener(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        databaseReference.child(NoteID).setValue(notesRvmodel);
-                        Toast.makeText(AddNote.this, "Note Added", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(AddNote.this,MainActivity.class));
-                    }
-
-                    @Override
-                    public void onCancelled(@NonNull DatabaseError error) {
-                        Toast.makeText(AddNote.this, "Error is occured ", Toast.LENGTH_SHORT).show();
-                    }
-                });
-
-
-
+            public void onClick(View v) {
+                 insertNote();
             }
         });
+
+
+
+    }
+    private void insertNote(){
+        String Topic = NoteTopic.getText().toString();
+        String note=DailyNote.getText().toString();
+
+        Notes notes= new Notes(Topic,DailyNote);
+
+        noteDbRef.push().setValue(notes);
     }
 }
