@@ -1,4 +1,4 @@
-package com.example.mydiaryapp;
+package com.example.smartdiary;
 
 import androidx.appcompat.app.AppCompatActivity;
 
