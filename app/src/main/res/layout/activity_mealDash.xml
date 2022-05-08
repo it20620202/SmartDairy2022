@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".mealDash">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="459dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-240dp"
+        android:layout_marginBottom="396dp"
+        android:background="@drawable/vie_bg" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="299dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="637dp"
+        android:gravity="left"
+        android:text="Todays Fitness"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="317dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="602dp"
+        android:gravity="left"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
+
+<!--    <TextView-->
+<!--        android:layout_width="299dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="51dp"-->
+<!--        android:layout_marginBottom="28dp"-->
+<!--        android:gravity="left"-->
+<!--        android:text="Todays Fitness"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="40dp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.321"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.502" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editName"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="229dp"-->
+<!--        android:outlineAmbientShadowColor="@color/white" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/edit_button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="157dp"-->
+<!--        android:text="submit" />-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/open_button"-->
+<!--        android:layout_width="77dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="64dp"-->
+<!--        android:layout_marginBottom="156dp"-->
+<!--        android:text="open" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/open_buttonCreate"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="17dp"-->
+<!--        android:layout_marginBottom="288dp"-->
+<!--        android:text="Create" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="275dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="319dp"
+        android:src="@drawable/box_bg"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="165dp"
+        android:layout_height="275dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="319dp"
+        android:src="@drawable/box_bg"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="553dp"
+        android:text="Step Tracker"
+        android:textColor="@color/blackgrey"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="122dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="555dp"
+        android:text="Food Tracker"
+        android:textColor="@color/blackgrey"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="122dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="532dp"
+        android:text="5679calories"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="122dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="235dp"
+        android:layout_marginBottom="529dp"
+        android:text="4760steps"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="339dp"
+        android:src="@drawable/line" />
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="161dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="351dp"
+        android:src="@drawable/line2" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="515dp"
+        android:src="@drawable/calories" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="330dp"
+        android:layout_marginBottom="516dp"
+        android:src="@drawable/ftsteps" />
+
+    <ImageButton
+        android:id="@+id/btn_exercise"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="351dp"
+        android:background="@drawable/arrow" />
+
+    <ImageButton
+        android:id="@+id/btn_food"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="352dp"
+        android:background="@drawable/arrow" />
+
+    <TextView
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="284dp"
+        android:text="Goals"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="136dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="319dp"
+        android:src="@drawable/box_bg"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <ImageView
+        android:layout_width="78dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="319dp"
+        android:src="@drawable/box_bg"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="84dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="319dp"
+        android:src="@drawable/box_bg"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <TextView
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="226dp"
+        android:text="Add Goals"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="237dp"
+        android:src="@drawable/add" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="227dp"
+        android:text="Steps 10,000"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="226dp"
+        android:text="Cals 2,000"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="152dp"
+        android:text="Tracker"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="136dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="625dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="319dp"
+        android:src="@drawable/box_bg"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="136dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="627dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="319dp"
+        android:src="@drawable/box_bg"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="105dp"
+        android:text="Remaining Steps"
+        android:textAlignment="center"
+        android:textColor="@color/blackgrey"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="68dp"
+        android:text="10,000"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="103dp"
+        android:text="Remaining Cals"
+        android:textAlignment="center"
+        android:textColor="@color/blackgrey"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="65dp"
+        android:text="2,000"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+</RelativeLayout>
