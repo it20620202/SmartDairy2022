@@ -1,4 +1,4 @@
-package com.example.mydiaryapp;
+package com.example.smartdiary;
 
 import android.view.View;
 import android.widget.TextView;
