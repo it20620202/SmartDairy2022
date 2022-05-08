@@ -63,7 +63,6 @@ public class AddNote extends AppCompatActivity {
         String note=DailyNote.getText().toString();
 
         Notes notes= new Notes(Topic,DailyNote);
-
         noteDbRef.push().setValue(notes);
     }
 }
