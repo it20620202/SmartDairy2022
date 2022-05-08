@@ -63,7 +63,8 @@ public class MainActivity extends AppCompatActivity {
         GoNote.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,)
+                Intent intent = new Intent(MainActivity.this,AddNote.class);
+                startActivity(intent);
             }
         });
 
