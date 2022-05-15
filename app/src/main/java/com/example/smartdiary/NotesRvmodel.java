@@ -42,6 +42,8 @@ public class NotesRvmodel implements Parcelable {
         }
     };
 
+    public NotesRvmodel(TextInputEditText date, TextInputEditText noteTopic, TextInputEditText dailyNote) {
+    }
 
 
     public String getNoteTopic() {
