@@ -20,7 +20,7 @@ public class Note {
         NoteTopic = noteTopic;
     }
 
-    public String getDailyNote(String DailyNote) {
+    public String getDailyNote() {
         return DailyNote;
     }
 
