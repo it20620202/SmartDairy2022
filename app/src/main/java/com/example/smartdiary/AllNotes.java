@@ -31,10 +31,10 @@ public class AllNotes extends AppCompatActivity {
     private DatabaseReference databaseReference;
     private FloatingActionButton addBtn;
     private RecyclerView recyclerView;
-    private todoAdapter todoAdapter;
+    private NoteAdapter NoteAdapter;
     private ArrayList<Note> list;
     private ProgressDialog dialog;
-    private Object NoteAdapter;
+
 
 
     @Override

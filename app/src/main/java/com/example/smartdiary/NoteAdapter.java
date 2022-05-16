@@ -20,15 +20,13 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.NoteViewHolder
 
     Context context;
     ArrayList<Note> list;
-    private todoAdapter.OnItemClickListener mListener;
+    private static todoAdapter.OnItemClickListener mListener;
 
     public interface OnItemClickListener{
         void onDelete(String Date,String Topic,int position);
         void onUpdate(String Date,String Topic, String DailyNote,int position);
     }
-    public static void setOnItemClickListener(todoAdapter.OnItemClickListener listener) {
-        mListener = listener;
-    }
+
     public NoteAdapter(Context context, ArrayList<Note> list) {
         this.context = context;
         this.list = list;
@@ -37,7 +35,7 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.NoteViewHolder
     @NonNull
     @Override
     public NoteAdapter.NoteViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(context).inflate(R.layout.todo_item, parent, false);
+        View v = LayoutInflater.from(context).inflate(R.layout.noteitem, parent, false);
         return new NoteViewHolder(v, mListener);
     }
     @Override
@@ -62,10 +60,9 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.NoteViewHolder
             super(itemView);
 
 
-            Date =itemView.findViewById(R.id.idEditNoteDate);
-            Topic =itemView.findViewById(R.id.idEditNoteTopic);
-            DailyNote =itemView.findViewById(R.id.idEditDailyNote);
-            editBtn =itemView.findViewById(R.id.editTask);
+            Date =itemView.findViewById(R.id.item_date);
+            Topic =itemView.findViewById(R.id.item_topic);
+            editBtn =itemView.findViewById(R.id.editNote);
             completed=itemView.findViewById(R.id.completed);
 
 

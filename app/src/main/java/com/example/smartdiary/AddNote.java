@@ -93,7 +93,7 @@ public class AddNote extends AppCompatActivity {
                     if (note.isSuccessful()){
                         Toast.makeText(AddNote.this, "Note added", Toast.LENGTH_SHORT).show();
 
-                        Intent AllNote = new Intent(AddNote.this,showTask.class);
+                        Intent AllNote = new Intent(AddNote.this,ShowNote.class);
                         startActivity(AllNote);
                         finish();
                     }
