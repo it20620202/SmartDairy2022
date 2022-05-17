@@ -98,6 +98,10 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.NoteViewHolder
             });
 
         }
+
+        public NoteViewHolder(View view) {
+            super(view);
+        }
     }
 
 

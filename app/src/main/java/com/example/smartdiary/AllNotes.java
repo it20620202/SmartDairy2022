@@ -75,7 +75,7 @@ public class AllNotes extends AppCompatActivity {
                         DatabaseReference newRef = databaseReference.child(Date);
                         newRef.removeValue();
                         list.remove(position);
-                        todoAdapter.notifyItemRemoved(position);
+                      NoteAdapter.notifyItemRemoved(position);
                         finish();
                         overridePendingTransition(0, 0);
                         Toast.makeText(AllNotes.this,"Task completed!", Toast.LENGTH_LONG).show();
@@ -108,7 +108,7 @@ public class AllNotes extends AppCompatActivity {
                     list.add(note);
                 }
 
-                todoAdapter.notifyDataSetChanged();
+                NoteAdapter.notifyDataSetChanged();
                 dialog.hide();
                 dialog.dismiss();
 
@@ -126,7 +126,7 @@ public class AllNotes extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         list = new ArrayList<Note>();
         NoteAdapter = new NoteAdapter(this,list);
-        recyclerView.setAdapter(todoAdapter);
+        recyclerView.setAdapter(NoteAdapter);
     }
 
 }
