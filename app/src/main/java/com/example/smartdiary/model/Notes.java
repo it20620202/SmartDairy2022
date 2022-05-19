@@ -1,8 +1,11 @@
-package com.example.smartdiary.model;
+package com.example.smartdairy.model;
 
-public class Note {
+public class Notes {
+    private String Id,Date,NoteTopic,DailyNote;
 
-    private String Date,NoteTopic,DailyNote;
+    public String getId() {return Id;}
+
+    public void setId(String id) { Id = id; }
 
     public String getDate() {
         return Date;
@@ -28,5 +31,5 @@ public class Note {
         DailyNote = dailyNote;
     }
 
-    public Note() { }
+    public Notes() { }
 }
