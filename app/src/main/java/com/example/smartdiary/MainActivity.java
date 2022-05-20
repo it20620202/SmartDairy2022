@@ -56,14 +56,18 @@ public class MainActivity extends AppCompatActivity {
         GoPay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 Intent intent= new Intent(MainActivity.this,AllPaymentActivity.class);
+=======
+                Intent intent= new Intent(MainActivity.this,AllNotes.class);
+>>>>>>> 7ec5461afcc0b8a43372fa32c88333108f240e43
                 startActivity(intent);
             }
         });
         GoNote.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,AddNote.class);
+                Intent intent = new Intent(MainActivity.this,ShowNote.class);
                 startActivity(intent);
             }
         });

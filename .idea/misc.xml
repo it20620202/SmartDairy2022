@@ -3,11 +3,36 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/drawable/butn1.xml" value="0.1165" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/drawable/custiom_button.xml" value="0.1" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1" />
         <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/drawable/menu.xml" value="0.127" />
+<<<<<<< HEAD
         <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
         <entry key="..\:/SmartDairy2022/app/src/main/res/layout/activity_all_payment.xml" value="0.25416666666666665" />
         <entry key="..\:/SmartDairy2022/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/SmartDairy2022/app/src/main/res/layout/activity_mealDash.xml" value="0.25416666666666665" />
+=======
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_add_daily_notes.xml" value="0.1640625" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_add_note.xml" value="0.16666666666666666" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_add_payment.xml" value="0.1796875" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_add_task.xml" value="0.1796875" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_all_notes.xml" value="0.1640625" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_create.xml" value="0.15208333333333332" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_edit_note.xml" value="0.1640625" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_mealDash.xml" value="0.1" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_mealdash.xml" value="0.325" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_registation.xml" value="0.1796875" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_show_note.xml" value="0.1796875" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_show_task.xml" value="0.1" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/activity_update_task.xml" value="0.1375" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.1375" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/layout_item.xml" value="0.1796875" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/noteitem.xml" value="0.33415233415233414" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/pay_rv_item.xml" value="0.1375" />
+        <entry key="..\:/Pramuditha/Data/projects/SmartDairy2022/app/src/main/res/layout/todo_item.xml" value="0.1375" />
+>>>>>>> 7ec5461afcc0b8a43372fa32c88333108f240e43
         <entry key="..\:/SmartDiary/app/src/main/res/layout/activity_main.xml" value="0.23802083333333332" />
         <entry key="..\:/SmartDiary/app/src/main/res/menu/menu_main.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/SmartDiary/app/src/main/res/drawable/custiom_button.xml" value="0.1" />

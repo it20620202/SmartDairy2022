@@ -24,8 +24,9 @@
     </LinearLayout>
 
 
+
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/idDate"
+        android:id="@+id/idTILUserName"
         style="@style/TextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,15 +37,17 @@
         android:padding="5dp"
         android:textColorHint="@color/white"
         app:hintTextColor="@color/white">
+
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/idNoteData"
+            android:id="@+id/idEditNoteDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:importantForAutofill="no"
-            android:inputType="text"
+            android:inputType="date"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:textSize="14sp" />
+
 
     </com.google.android.material.textfield.TextInputLayout>
 

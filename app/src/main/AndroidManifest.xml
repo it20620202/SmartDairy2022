@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartDiary">
         <activity
+            android:name=".ShowNote"
+            android:exported="false" />
+        <activity
+            android:name=".AllNotes"
+            android:exported="false" />
+        <activity
             android:name=".AddNote"
             android:exported="false" />
         <activity
