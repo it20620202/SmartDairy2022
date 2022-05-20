@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         GoPay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(MainActivity.this,AddPaymentActivity.class);
+                Intent intent= new Intent(MainActivity.this,AllPaymentActivity.class);
                 startActivity(intent);
             }
         });
