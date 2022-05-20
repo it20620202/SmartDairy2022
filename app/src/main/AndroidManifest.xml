@@ -31,9 +31,6 @@
             android:name=".EditPaymentActivity"
             android:exported="false" />
         <activity
-            android:name=".AddPaymentActivity"
-            android:exported="false" />
-        <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
